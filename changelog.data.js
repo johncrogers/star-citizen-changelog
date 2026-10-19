@@ -37,6 +37,20 @@ window.CHANGELOG_APPS = {
 
 window.CHANGELOG = [
   {
+    id: "2026-10-19-engineering-foundation",
+    date: "2026-10-19",
+    kind: "improved",
+    apps: ["roadmap"],
+    title: "Groundwork for what's next",
+    summary: "Behind the scenes: the code for the coming features (the new app shell, the job ledger, accounts) now has automatic checks and tests that run on every change, so updates can come faster without breaking things. Nothing changes in the apps you use today.",
+    details: [
+      "The first piece of shared code handles aUEC amounts, including splitting a payout so the shares always add up to the total.",
+      "Next on the roadmap: a new app shell that brings every tool under one menu.",
+    ],
+    links: [{ label: "See the roadmap", app: "roadmap" }],
+    feature: "engineering-foundation",
+  },
+  {
     id: "2026-10-19-locations-wishlist",
     date: "2026-10-19",
     kind: "new",
