@@ -39,6 +39,22 @@ window.CHANGELOG_APPS = {
 
 window.CHANGELOG = [
   {
+    id: "2026-10-19-sign-in",
+    date: "2026-10-19",
+    kind: "new",
+    apps: ["home"],
+    title: "Sign in with Discord (invite only for now)",
+    summary: "You can now sign in to the tools with your Discord account. Accounts are invite-only while we test them: enter your invite code on your first sign-in and pick a handle. Nothing else changes yet, and the job ledger still keeps your jobs in your browser.",
+    details: [
+      "We only ask Discord for your id, name and avatar. No email, and no password to remember.",
+      "Your account page shows where you're signed in. Sign out of one device or all of them.",
+      "Download everything we hold about you as one file, or delete your account and all of it.",
+      "Change your handle once a month.",
+    ],
+    links: [{ label: "Sign in", url: "https://star-citizen.john-clinton-rogers.workers.dev/sign-in" }],
+    feature: "sign-in",
+  },
+  {
     id: "2026-10-19-api-platform",
     date: "2026-10-19",
     kind: "improved",
