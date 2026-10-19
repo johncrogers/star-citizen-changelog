@@ -39,6 +39,20 @@ window.CHANGELOG_APPS = {
 
 window.CHANGELOG = [
   {
+    id: "2026-10-19-api-platform",
+    date: "2026-10-19",
+    kind: "improved",
+    apps: ["roadmap"],
+    title: "A server for accounts, coming soon",
+    summary: "Behind the scenes: the tools now have a server and a database, ready for accounts, saved progress and groups. Nothing changes in the apps you use today, and the job ledger still keeps your jobs in your browser.",
+    details: [
+      "It's built to refuse floods of requests, to keep no personal details in its logs, and to keep test copies apart from the real data.",
+      "Next on the roadmap: signing in with Discord, Google or GitHub.",
+    ],
+    links: [{ label: "See the roadmap", app: "roadmap" }],
+    feature: "api-platform",
+  },
+  {
     id: "2026-10-19-job-ledger",
     date: "2026-10-19",
     kind: "new",
