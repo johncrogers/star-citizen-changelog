@@ -33,9 +33,24 @@ window.CHANGELOG_APPS = {
   glossary: "Glossary",
   changelog: "What's new",
   roadmap: "Roadmap",
+  home: "Tools home",
 };
 
 window.CHANGELOG = [
+  {
+    id: "2026-10-19-tools-home",
+    date: "2026-10-19",
+    kind: "new",
+    apps: ["home"],
+    title: "A home for all the tools",
+    summary: "A new home page lists every tool in one place, grouped by what you're doing: planning ships and gear, playing (contracts, careers, locations), looking things up, and news. It's the start of the new app the tools will move into, one by one.",
+    details: [
+      "It works on phones, and every link is checked automatically before each update goes live.",
+      "The tools themselves haven't moved yet: each card opens the tool you know.",
+    ],
+    links: [{ label: "Open the tools home", url: "https://star-citizen.john-clinton-rogers.workers.dev" }],
+    feature: "web-shell",
+  },
   {
     id: "2026-10-19-engineering-foundation",
     date: "2026-10-19",
