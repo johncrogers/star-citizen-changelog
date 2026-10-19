@@ -34,9 +34,27 @@ window.CHANGELOG_APPS = {
   changelog: "What's new",
   roadmap: "Roadmap",
   home: "Tools home",
+  jobs: "Job ledger",
 };
 
 window.CHANGELOG = [
+  {
+    id: "2026-10-19-job-ledger",
+    date: "2026-10-19",
+    kind: "new",
+    apps: ["jobs"],
+    title: "Job ledger: split a job's profits with your crew",
+    summary: "Record a job with your crew: who received the reward or sold the cargo, who paid for fuel and repairs, and how you split it. The ledger works out each person's share and the fewest transfers to settle up. Copy the tab into Discord, and tick transfers off as they're paid.",
+    details: [
+      "Split equally, by weight (the ship owner takes 1.5), or by percent, with a crew cut off the top and fixed pay for an escort.",
+      "Costs can be paid back before profit is split, or stay with whoever paid them. A shared contract reward counts as already split by the game.",
+      "Type amounts the way you say them: 600k, 1.2m.",
+      "Run a job again with the same crew, or save it as a template. See your earnings per week, per hour and by activity once you set your name.",
+      "Everything is saved in your browser. No account needed. Export a file to back it up or move it to another browser.",
+    ],
+    links: [{ label: "Open the job ledger", url: "https://star-citizen.john-clinton-rogers.workers.dev/jobs" }],
+    feature: "job-ledger-local",
+  },
   {
     id: "2026-10-19-game-data-json",
     date: "2026-10-19",
