@@ -37,6 +37,21 @@ window.CHANGELOG_APPS = {
 
 window.CHANGELOG = [
   {
+    id: "2026-10-19-locations-wishlist",
+    date: "2026-10-19",
+    kind: "new",
+    apps: ["locations"],
+    title: "Your wishlists in Locations",
+    summary: "A new Wishlist tab in the locations app lists everything on your ships, items and ship parts wishlists that you don't own yet, in one place, with the shops that sell each thing. Click a shop for directions.",
+    details: [
+      "By place groups your list by city, station or outpost, so you can see what to pick up in one stop.",
+      "Filter by system, and add the parts picked in your saved loadout builds if you like.",
+      "A place's details show what's sold there from your wishlists.",
+      "Things no shop sells say how to get them, like the pledge store or loot.",
+    ],
+    links: [{ label: "Open your wishlist in Locations", app: "locations", hash: "wishlist" }],
+  },
+  {
     id: "2026-10-19-wishlist-filter",
     date: "2026-10-19",
     kind: "improved",
