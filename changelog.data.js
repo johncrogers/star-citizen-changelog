@@ -38,6 +38,18 @@ window.CHANGELOG_APPS = {
 
 window.CHANGELOG = [
   {
+    id: "2026-10-19-game-data-json",
+    date: "2026-10-19",
+    kind: "improved",
+    apps: ["home"],
+    title: "Game data, ready for the new app",
+    summary: "Behind the scenes: ships, items, ship parts, places, contracts and lore are now stored in one format the new app can load quickly, and every data update is checked automatically before it goes live. Nothing changes in the tools you use today.",
+    details: [
+      "When a patch renames something, your wishlist and saved progress can keep finding it.",
+    ],
+    feature: "game-data-json",
+  },
+  {
     id: "2026-10-19-tools-home",
     date: "2026-10-19",
     kind: "new",
