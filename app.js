@@ -122,6 +122,8 @@
     const b = ev.target.closest("button[data-group]");
     if (!b) return;
     state[b.dataset.group] = b.dataset.id;
+    // Choosing a filter replaces any "jump to this update" link, which would otherwise undo it.
+    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { location.hash = ""; }
     setUrl();
     render();
   });

@@ -32,9 +32,24 @@ window.CHANGELOG_APPS = {
   careers: "Careers",
   glossary: "Glossary",
   changelog: "What's new",
+  roadmap: "Roadmap",
 };
 
 window.CHANGELOG = [
+  {
+    id: "2026-10-18-roadmap",
+    date: "2026-10-18",
+    kind: "new",
+    apps: ["roadmap"],
+    title: "Roadmap",
+    summary: "See every idea in the works, in the order we plan to build it: accounts and friends, orgs and parties, team dashboards, a job ledger for splitting profits, and more. Shipped ideas link to their What's new entry.",
+    details: [
+      "Each idea shows its status (Idea, Planned, In progress, Shipped) and what it's waiting on.",
+      "Priorities can change as plans firm up.",
+    ],
+    links: [{ label: "Open the roadmap", app: "roadmap" }],
+    feature: "roadmap-app",
+  },
   {
     id: "2026-10-18-whats-new",
     date: "2026-10-18",
