@@ -37,6 +37,19 @@ window.CHANGELOG_APPS = {
 
 window.CHANGELOG = [
   {
+    id: "2026-10-19-wishlist-filter",
+    date: "2026-10-19",
+    kind: "improved",
+    apps: ["ships", "items", "components"],
+    title: "Filter by wishlist",
+    summary: "The Filters panel in the ships, items and ship components apps has a new Wishlist menu: show only what's on your wishlist, or only what isn't. Handy for finding something new among everything else.",
+    details: [
+      "It works with every other filter and search, for example Drake ships you haven't wishlisted yet.",
+      "You can also type is:wanted or -is:wanted in the search box.",
+    ],
+    links: [{ label: "Ships not on your wishlist", app: "ships", q: "-is:wanted" }],
+  },
+  {
     id: "2026-10-18-roadmap",
     date: "2026-10-18",
     kind: "new",
